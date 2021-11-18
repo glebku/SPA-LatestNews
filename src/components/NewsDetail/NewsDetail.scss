@@ -1,0 +1,28 @@
+.news-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    &-left {
+        width: 30%;
+    }
+    &-right {
+        width: 66%;
+    }
+    &-descr {
+        margin-top: 60px;
+        font-size: 25px;
+    }
+    .author {
+        color: rgba(51, 61, 81, 0.5);
+        margin: 30px 0;
+        font-size: 25px;
+        display: block;
+    }
+    .day {
+        font-size: 30px;
+    }
+    .month {
+        font-size: 20px;
+        opacity: 0.5;
+    }
+}

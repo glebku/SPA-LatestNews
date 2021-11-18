@@ -1,0 +1,43 @@
+.footer {
+    height: 135px;
+    box-sizing: border-box;
+    padding: 45px 0;
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 45px 0;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+    }
+    .spa-name {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .spa {
+        font-size: 12px;
+    }
+    .reg-text {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .reg-text {
+        font-size: 15px;
+    }
+    .created {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .name {
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 30px;
+        }
+        
+    }
+}
